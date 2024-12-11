@@ -1,5 +1,5 @@
 import express, { json } from 'express';
-import cors from 'cors'; // Import CORS
+import cors from 'cors'; 
 const app = express();
 import connectDB from './src/config/db.js';
 import menuRoutes from './src/routes/menuRoutes.js';
